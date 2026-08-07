@@ -47,3 +47,34 @@ The model will assess supplier performance across five main dimensions:
 The project will also consider spare part criticality to ensure that supplier selection decisions are aligned with the operational importance of each part.
 
 The final objective is to provide a structured, transparent, and reproducible approach that supports procurement decisions and reduces reliance on subjective supplier selection.
+
+## 5. Scope
+
+The project will focus on:
+
+- Evaluation of suppliers providing industrial spare parts.
+- Analysis of supplier cost performance.
+- Analysis of product and delivery quality.
+- Analysis of delivery performance and lead times.
+- Analysis of supplier reliability.
+- Assessment of supply risk.
+- Classification of spare parts according to their criticality.
+- Development of a multi-criteria supplier evaluation and ranking model.
+- Data visualization and performance reporting.
+- Sensitivity analysis to assess the impact of different decision criteria and weighting schemes.
+
+### Out of Scope
+
+The project will not cover:
+
+- Real supplier negotiations or contract management.
+- Real procurement transactions.
+- Production planning and scheduling.
+- Preventive or corrective maintenance planning.
+- Complete warehouse management.
+- Real-time inventory management.
+- Financial accounting and payment processes.
+- Real supplier qualification or certification
+
+
+
