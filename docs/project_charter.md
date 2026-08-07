@@ -27,3 +27,7 @@ AtlasMotion Industries works with multiple suppliers to procure spare parts requ
 Currently, comparing suppliers across these different dimensions can be challenging when the decision relies on individual criteria or subjective judgment. Selecting a supplier based mainly on purchase price may result in higher quality issues, delivery delays, supply disruptions, or increased operational risk.
 
 This project addresses the need for a structured and data-driven approach to evaluate supplier performance and support objective supplier selection decisions for spare parts.
+
+## 3. Main Question
+
+How can AtlasMotion Industries objectively select the most suitable supplier for industrial spare parts by balancing cost, quality, delivery performance, reliability, and supply risk?
