@@ -107,3 +107,15 @@ The main Critical To Quality (CTQ) factors identified for this project are:
 | Reliability | Ability to maintain consistent supplier performance over time. | Performance variability, incident frequency |
 | Supply Risk | Exposure to potential disruptions affecting spare part availability. | Supply incidents, shortages, dependency |
 | Spare Part Criticality | Operational importance of each spare part for maintenance and production continuity. | Criticality level, downtime impact |
+
+## 8. DMAIC Approach
+
+The project will follow the Six Sigma DMAIC methodology to structure the analysis and decision-making process.
+
+| Phase | Purpose |
+|---|---|
+| Define | Define the business problem, project objectives, scope, stakeholders, and Critical To Quality factors. |
+| Measure | Collect, structure, and measure supplier performance using relevant data and Key Performance Indicators (KPIs). |
+| Analyze | Identify the main factors influencing supplier performance and compare suppliers across multiple criteria. |
+| Improve | Develop a multi-criteria supplier selection model and evaluate potential improvement scenarios. |
+| Control | Define monitoring indicators and recommendations to support consistent supplier performance evaluation over time. |
