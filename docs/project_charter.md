@@ -31,3 +31,19 @@ This project addresses the need for a structured and data-driven approach to eva
 ## 3. Main Question
 
 How can AtlasMotion Industries objectively select the most suitable supplier for industrial spare parts by balancing cost, quality, delivery performance, reliability, and supply risk?
+
+## 4. Project Objective
+
+The objective of this project is to develop a data-driven, multi-criteria decision-support model for evaluating and ranking suppliers of industrial spare parts.
+
+The model will assess supplier performance across five main dimensions:
+
+- Cost
+- Quality
+- Delivery performance
+- Reliability
+- Supply risk
+
+The project will also consider spare part criticality to ensure that supplier selection decisions are aligned with the operational importance of each part.
+
+The final objective is to provide a structured, transparent, and reproducible approach that supports procurement decisions and reduces reliance on subjective supplier selection.
