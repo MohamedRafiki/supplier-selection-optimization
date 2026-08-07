@@ -119,3 +119,28 @@ The project will follow the Six Sigma DMAIC methodology to structure the analysi
 | Analyze | Identify the main factors influencing supplier performance and compare suppliers across multiple criteria. |
 | Improve | Develop a multi-criteria supplier selection model and evaluate potential improvement scenarios. |
 | Control | Define monitoring indicators and recommendations to support consistent supplier performance evaluation over time. |
+
+## 9. Expected Deliverables
+
+The project is expected to produce the following deliverables:
+
+- A structured and documented synthetic dataset representing supplier and spare parts performance.
+- A data dictionary defining the main variables and business rules.
+- A relational data model describing the relationships between the project datasets.
+- Exploratory and statistical analysis of supplier performance.
+- A set of supplier performance KPIs.
+- A multi-criteria supplier evaluation and ranking model.
+- Sensitivity analysis to assess the impact of different decision criteria and weighting schemes.
+- Data visualizations and performance reports.
+- A final set of supplier selection recommendations.
+- A documented and reproducible GitHub portfolio project.
+
+- ## 10. Project Limitations
+
+This project is based entirely on synthetic data created for educational and portfolio purposes.
+
+The results and supplier rankings do not represent the performance of any real company or supplier.
+
+The decision model will depend on the assumptions, data quality, criteria, and weighting schemes defined during the project.
+
+Therefore, the results should be considered as decision-support outputs rather than absolute recommendations for real-world supplier selection.
