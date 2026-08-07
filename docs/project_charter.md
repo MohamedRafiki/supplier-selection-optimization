@@ -76,5 +76,20 @@ The project will not cover:
 - Financial accounting and payment processes.
 - Real supplier qualification or certification
 
+## 6. Stakeholders
 
+The project involves several internal stakeholders with different needs and decision priorities.
+
+| Stakeholder | Main Interest |
+|---|---|
+| Procurement | Optimize purchasing costs and select reliable suppliers. |
+| Maintenance | Ensure the availability of critical spare parts and minimize equipment downtime. |
+| Production | Maintain production continuity and reduce disruptions caused by spare parts shortages. |
+| Quality | Monitor supplier quality and reduce non-conformities. |
+| Supply Chain | Ensure reliable material flow and manage supply risks. |
+| Management | Support strategic supplier decisions using objective and measurable information. |
+
+### Project Perspective
+
+This project will adopt a cross-functional perspective, combining Procurement, Maintenance, Quality, Production, and Supply Chain requirements to support a balanced supplier selection decision.
 
