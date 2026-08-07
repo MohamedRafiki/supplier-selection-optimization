@@ -93,3 +93,17 @@ The project involves several internal stakeholders with different needs and deci
 
 This project will adopt a cross-functional perspective, combining Procurement, Maintenance, Quality, Production, and Supply Chain requirements to support a balanced supplier selection decision.
 
+## 7. Critical To Quality (CTQ)
+
+The supplier selection process must consider the key requirements that directly influence operational performance and decision quality.
+
+The main Critical To Quality (CTQ) factors identified for this project are:
+
+| CTQ Factor | Description | Key Indicators |
+|---|---|---|
+| Cost | Ability to provide spare parts at a competitive total cost. | Unit price, total purchasing cost |
+| Quality | Ability to consistently provide conforming spare parts. | Defect rate, rejection rate |
+| Delivery Performance | Ability to deliver spare parts according to agreed requirements. | On-Time Delivery (OTD), lead time |
+| Reliability | Ability to maintain consistent supplier performance over time. | Performance variability, incident frequency |
+| Supply Risk | Exposure to potential disruptions affecting spare part availability. | Supply incidents, shortages, dependency |
+| Spare Part Criticality | Operational importance of each spare part for maintenance and production continuity. | Criticality level, downtime impact |
