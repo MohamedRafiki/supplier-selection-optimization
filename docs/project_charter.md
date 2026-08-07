@@ -19,3 +19,11 @@ AtlasMotion Industries is a fictional automotive manufacturing company that reli
 The company works with suppliers offering different levels of performance in terms of cost, quality, delivery, reliability, and supply risk.
 
 The purpose of this project is to develop a data-driven decision-support approach for evaluating and selecting the most suitable suppliers for spare parts.
+
+## 2. Problem Statement
+
+AtlasMotion Industries works with multiple suppliers to procure spare parts required for maintenance and production activities. Supplier performance can vary significantly across cost, quality, delivery, reliability, and supply risk.
+
+Currently, comparing suppliers across these different dimensions can be challenging when the decision relies on individual criteria or subjective judgment. Selecting a supplier based mainly on purchase price may result in higher quality issues, delivery delays, supply disruptions, or increased operational risk.
+
+This project addresses the need for a structured and data-driven approach to evaluate supplier performance and support objective supplier selection decisions for spare parts.
