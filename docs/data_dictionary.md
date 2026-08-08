@@ -62,3 +62,19 @@ This table contains the purchase orders placed with suppliers for spare parts.
 | unit_price | Decimal | Agreed purchase price per unit | 125.50 | Must be > 0 |
 | promised_date | Date | Date promised by the supplier | 2026-03-01 | Must be after or equal to order_date |
 | purchase_order_status | String | Current status of the purchase order | Completed | Must belong to a predefined category |
+
+---
+
+## 5. Deliveries
+
+This table contains the actual delivery information for purchase orders.
+
+| Variable | Data Type | Description | Example | Business Rule |
+|---|---|---|---|---|
+| delivery_id | String | Unique identifier of the delivery | DEL0001 | Must be unique |
+| po_id | String | Identifier of the related purchase order | PO0001 | Must exist in the purchase_orders table |
+| delivery_date | Date | Actual date when the delivery was received | 2026-03-05 | Must be a valid date |
+| received_quantity | Integer | Total quantity physically received | 10 | Must be >= 0 |
+| damaged_quantity | Integer | Quantity received with physical damage | 1 | Must be >= 0 and <= received_quantity |
+| accepted_quantity | Integer | Quantity accepted after receiving inspection | 9 | Must be >= 0 and <= received_quantity |
+| delivery_status | String | Status of the delivery | On Time | Must belong to a predefined category |
