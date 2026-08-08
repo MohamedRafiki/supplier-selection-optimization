@@ -78,3 +78,22 @@ This table contains the actual delivery information for purchase orders.
 | damaged_quantity | Integer | Quantity received with physical damage | 1 | Must be >= 0 and <= received_quantity |
 | accepted_quantity | Integer | Quantity accepted after receiving inspection | 9 | Must be >= 0 and <= received_quantity |
 | delivery_status | String | Status of the delivery | On Time | Must belong to a predefined category |
+
+---
+
+## 6. Quality Events
+
+This table contains quality inspection results and supplier-related quality issues.
+
+| Variable | Data Type | Description | Example | Business Rule |
+|---|---|---|---|---|
+| quality_event_id | String | Unique identifier of the quality event | QE0001 | Must be unique |
+| po_id | String | Identifier of the related purchase order | PO0001 | Must exist in the purchase_orders table |
+| supplier_id | String | Identifier of the supplier involved | SUP001 | Must exist in the suppliers table |
+| part_id | String | Identifier of the inspected spare part | PART001 | Must exist in the spare_parts table |
+| inspection_date | Date | Date of the quality inspection | 2026-03-06 | Must be a valid date |
+| inspected_quantity | Integer | Quantity inspected during the quality check | 10 | Must be > 0 |
+| defective_quantity | Integer | Quantity identified as defective | 1 | Must be >= 0 and <= inspected_quantity |
+| defect_type | String | Type of quality defect identified | Dimensional | Must belong to a predefined category |
+| severity | String | Severity level of the quality issue | Major | Low, Medium, High, Critical |
+    ↓
