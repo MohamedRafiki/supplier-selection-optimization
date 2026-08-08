@@ -45,3 +45,20 @@ This table contains the commercial conditions offered by each supplier for each 
 | lead_time_days | Integer | Standard supplier lead time in days | 14 | Must be >= 0 |
 | valid_from | Date | Start date of the price validity period | 2026-01-01 | Must be a valid date |
 | valid_to | Date | End date of the price validity period | 2026-12-31 | Must be after valid_from |
+
+---
+
+## 4. Purchase Orders
+
+This table contains the purchase orders placed with suppliers for spare parts.
+
+| Variable | Data Type | Description | Example | Business Rule |
+|---|---|---|---|---|
+| po_id | String | Unique identifier of the purchase order | PO0001 | Must be unique |
+| supplier_id | String | Identifier of the selected supplier | SUP001 | Must exist in the suppliers table |
+| part_id | String | Identifier of the ordered spare part | PART001 | Must exist in the spare_parts table |
+| order_date | Date | Date when the purchase order was created | 2026-02-15 | Must be a valid date |
+| ordered_quantity | Integer | Quantity ordered | 10 | Must be > 0 |
+| unit_price | Decimal | Agreed purchase price per unit | 125.50 | Must be > 0 |
+| promised_date | Date | Date promised by the supplier | 2026-03-01 | Must be after or equal to order_date |
+| purchase_order_status | String | Current status of the purchase order | Completed | Must belong to a predefined category |
